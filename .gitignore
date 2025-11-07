@@ -2,6 +2,10 @@
 CLAUDE.md
 AGENTS.md
 
+# JetBrains
+
+.idea/
+
 # Additions to standard GitHub .gitignore:
 *.bak
 *.orig
