@@ -1,0 +1,9 @@
+# Changes here will be overwritten by Copier. Do not edit manually.
+_commit: v0.2.19
+_src_path: gh:jlevy/simple-modern-uv
+package_author_email: daniel@drackthor.me
+package_author_name: Daniel Drack
+package_description: My collection of useful Python stuff.
+package_github_org: DrackThor
+package_module: dracklib
+package_name: dracklib
