@@ -129,6 +129,7 @@ ignore = [
 ]
 
 [tool.basedpyright]
+
 # BasedPyright currently seems like the best type checker option, much faster
 # than mypy and with a good extension for VSCode/Cursor.
 # https://marketplace.visualstudio.com/items?itemName=detachhead.basedpyright
@@ -151,8 +152,9 @@ reportUnreachable = false
 # reportPrivateImportUsage = false
 # reportPrivateLocalImportUsage = false
 # reportMissingImports = false
+reportUnsupportedDunderAll = false
 # reportUnnecessaryIsInstance = false
-# reportUnknownVariableType = false
+reportUnknownVariableType = false
 # reportUnknownArgumentType = false
 
 [tool.codespell]
@@ -161,6 +163,7 @@ reportUnreachable = false
 # skip = "foo.py,bar.py"
 
 [tool.pytest.ini_options]
+
 python_files = ["*.py"]
 python_classes = ["Test*"]
 python_functions = ["test_*"]

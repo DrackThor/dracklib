@@ -1,6 +1,7 @@
 from typing import Any
 
-def dget(d: dict, k: str, delimiter: str = '.', default = None) -> Any:
+
+def dget(d: dict[str, Any], k: str, delimiter: str = ".", default: Any = None) -> Any:
     """
     Retrieve a value from a nested dictionary using a delimiter-separated key.
     If the key does not exist in the dictionary, the method either returns
@@ -24,7 +25,7 @@ def dget(d: dict, k: str, delimiter: str = '.', default = None) -> Any:
     :raises KeyError: If the key does not exist in the dictionary and no default value is provided.
     """
     # Validate delimiter
-    if not delimiter or not isinstance(delimiter, str):
+    if not delimiter:
         raise ValueError("Delimiter must be a non-empty string")
 
     # Split the key by delimiter

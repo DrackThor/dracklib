@@ -1,6 +1,6 @@
 # File: tests/test_rc.py
 
-from src.dracklib.rc import RC
+from dracklib.rc import RC
 
 
 def test_rc_initialization():
